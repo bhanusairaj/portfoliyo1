@@ -1,0 +1,37 @@
+footer{
+    background-color:#0D0D0D;
+    bottom:0px;
+    align-items: center;
+    justify-content: center;
+    width:1520px;
+}
+.fd{
+    display: flex;
+    flex-direction: rows;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.fd a{
+    flex-direction: rows;
+    
+}
+.imgo{
+
+    width:25px;
+    height:25px;
+}
+.fd1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fd2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

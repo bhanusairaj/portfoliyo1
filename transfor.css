@@ -1,0 +1,44 @@
+.cssp122{
+    animation-name:jjj ;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-delay:1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    display: inline-block;
+}
+.tram{
+    animation-name:jj1 ;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    animation-delay:1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+    display: inline-block;
+}
+@keyframes jjj{
+    from{
+        color:yellow;
+        transform: translateX(10px) translateY(10px);
+        font-family: Georgia, serif;
+    }
+    to{
+        color:red;
+        transform: translateX(300px) translateY(300px);
+        font-family:'Courier New', monospace;
+    }
+}
+@keyframes jj1{
+    from{
+        font-family: 'Courier New', monospace	;
+        color:red;
+        transform: translateX(15px) translateY(17px);
+    }
+    to{
+        font-family:Georgia, serif ;
+        color:yellow;
+        transform: translateX(30px) translateY(290px);
+    }
+}

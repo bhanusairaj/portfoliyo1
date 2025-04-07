@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+ul li{
+    display:inline;
+    padding-left:10px;
+    margin-left:70px;
+    
+}
+div{
+    margin-left:10px;
+    margin: 10px;
+    margin-left: 100px;
+    color:white;
+}
+nav {
+    display:flex;
+    background-color: #00FFFF;
+    flex-direction: row;
+    
+    
+    width:2000px;
+    padding-top: 25px;
+}
+ul li a{
+    
+    text-decoration: none;
+    text-align:center;
+    font-weight: bold;
+    color: white;
+    
+
+}
+body{
+    background-color :#2E2E2E ;
+}
+span{
+    color:#B3B3B3;
+}
+.home,dt{
+    list-style-type:disc;
+    color:#B3B3B3;
+    display:block;
+}
+.home li{
+    display:block;
+}
+img{
+    width:500px;
+    height: 600px;;
+    display:block;
+    margin:auto;
+}
+.edu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.edu1{
+    background-color:white;
+    width:300px;
+    height:300px;
+    grid-gap: 100px;
+    color:black;
+    border-radius:20px;
+    
+}
+.edh{
+    padding-left: 1000px;
+    
+}
+.kk{
+    width:300px;
+    height:100px
+
+}
+.vb{
+    width:300px;
+    height:100px;
+}
+
+h1{
+    color:#00FFFF;
+}
+.ppop{
+    width:100px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.kkoll{
+    width:100px;
+    height: 100px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.cssp1{
+    font-size:60px;
+    color:yellow;
+    font-family:  Impact, sans-serif;
+}
+.cssp1::first-letter{
+    color:red;
+}
+.cssp12{
+    font-size: 30px;
+    color :red;
+}
+.cssp122{
+    font-size:40px;
+    color:yellow;
+}
+.jjjj{
+    margin-left: 700px;
+    margin-bottom: 0px;
+    padding-right:0px;
+    margin-right:0px;
+    
+}
+span{
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+.edu1:hover{
+    transform:scale(1.05);
+    cursor: pointer;
+    box-shadow: 3px 3px 3px 3px #B3B3B3;
+    color:green;
+}
+.hd{
+    font-size: 20px;
+}
+.hd:hover{
+    text-shadow: gold;
+    color:red;
+}
+.ho:hover{
+    transform:scale(1.2);
+}
+.uu:hover{
+    transform:scale(1.3);
+    cursor: pointer;
+}
+.h1:hover{
+    transform: scale(1.02);
+}
+.bulb:hover{
+    color:pink;
+    border:1px solid pink;
+    text-shadow:1px 1px 1px black;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px pink;
+    border-radius: 10px;
+    transform: scale(1.2);
+}
